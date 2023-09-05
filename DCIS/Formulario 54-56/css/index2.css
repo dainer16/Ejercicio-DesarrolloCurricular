@@ -41,7 +41,7 @@ body{
 .container-contenido2{
     border: 2px solid #000;
     width: 800px; /* Ancho deseado en píxeles o porcentaje */
-    height: 34px; /* Alto deseado en píxeles o porcentaje */
+    height: 50px; /* Alto deseado en píxeles o porcentaje */
     margin: 20px auto;
 }
 
