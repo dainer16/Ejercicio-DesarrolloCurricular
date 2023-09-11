@@ -1,90 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+  background-color: rgb(64, 64, 64);
+  margin: 0; /* Elimina el margen predeterminado del body */
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index52.css">
-    <title>Document</title>
-</head>
+.container-alfa {
+  background-color: #ffffff;
+  margin: 20px auto; /* Centra el contenedor horizontalmente con margen */
+  max-width: 850px; /* Ancho máximo del contenedor */
+  padding: 20px 10px; /* Añade espacio interno al contenedor */
+  text-align: center; /* Centra el contenido horizontalmente */
+  box-sizing: border-box; /* Incluye el padding en el ancho total del contenedor */
+}
 
-<body>
-    <div class="container-alfa">
-        <!-- <h1>22</h1> -->
-        <!-- <h1>container alfa</h1> -->
-        <div class="container-encabezado">
-            <!-- <div class="img-encabezado"> -->
-            <img src="imagen/logo_sena.png" alt="#" class="img-encabezado">
-            <p>LÍNEA TECNOLÓGICA: TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES
-                GESTIÓN DE LA INFORMACIÓN</p>
-            <p>RED TECNOLÓGICA: TECNOLOGÍAS DE LA INFORMACIÓN, DISEÑO Y DESARROLLO DE
-                SOFTWARE</p>
-            <p>RED DE CONOCIMIENTO: RED DE CONOCIMIENTO EN INFORMÁTICA, DISEÑO Y DESARROLLO
-                DE SOFTWARE</p>
+.container-encabezado {
+  border: 2px solid #000;
+  overflow: auto; /* Evita problemas de diseño si el contenido es más alto que la imagen */
+  margin-bottom: 20px;
+  height: auto; /* Alto deseado en píxeles o porcentaje */
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  margin: 0 auto;
+}
 
-        </div>
-        
+.container-encabezado p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold; /* Grosor de la fuente (negrita) */
+}
+.img-encabezado {
+  border-right: 2px solid black;
+  float: left;
+  margin-right: 10px;
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% */
+  height: auto;
+}
 
+/* 
+hasta aqui va el container de encabezado y comienza el de contenido
+*/
+.container-contenido {
+  /* background-color: white; */
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 205px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+}
+#contenedor2 {
+  /* background-color: white; */
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 420px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+  margin-top: 30px;
+}
+#contenedor3 {
+  /* background-color: white; */
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 340px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+  margin-top: -22px;
+}
 
-        <!-- esta es el segundo container -->
-            
-            <div class="container-contenido" id="contenedor2">
-                <p>
-                    * HOSTING Y DOMINIO: TIPOS, CONFIGURACIONES, GESTORES DE CONTENIDOS.<br>
-* FTP: CONCEPTO, TRANSFERENCIA DE ARCHIVOS.<br>
-<br>
-<br>
-DESPLEGAR EL SOFTWARE DE ACUERDO CON LA ARQUITECTURA Y LAS POLÍTICAS ESTABLECIDAS:<br>
-<br>
-* CONTEXTO DEL AMBIENTE DE PRODUCCIÓN: UBICACIÓN DE LOS SERVIDORES, SISTEMA OPERATIVO DE RED, POLÍTICAS DE SEGURIDAD, CONFIGURACIÓN DEL SISTEMA (SERVIDORES, CLIENTES).<br>
-* DISTRIBUCIÓN DEL SOFTWARE: PROCEDIMIENTO DE LIBERACIÓN DEL SOFTWARE, ORGANIZACIÓN DE
-ARCHIVOS<br>
-* CLOUD COMPUTING: CONCEPTOS, DISEÑO, TECNOLOGÍAS Y PRINCIPALES HERRAMIENTAS PARA TRABAJAR EN LA NUBE, AZURE, AWS, HEROKU, NODE.JS, SERVICIOS Y PROVEEDORES CLOUD DE RELEVANCIA, COSTOS.<br>
-<br>
-<br>
-DOCUMENTAR EL PROCESO DE IMPLANTACIÓN DE SOFTWARE SIGUIENDO ESTÁNDARES DE CALIDAD:<br>
-<br>
-* MANUALES: TIPOS (TÉCNICO, USUARIO E INSTALACIÓN), AYUDAS EN LÍNEA, TÉCNICAS DE PRESENTACIÓN DE TRABAJOS ESCRITOS, NORMAS ICONTEC / APA, REDACCIÓN, ORTOGRAFÍA.<br>
-* INFORMES TÉCNICOS: DEFINICIÓN, CARACTERÍSTICAS, CONTENIDO.<br>
-<br>
-<br>
-IMPLANTAR EL SOFTWARE DE ACUERDO CON LOS NIVELES DE SERVICIO ESTABLECIDOS CON EL CLIENTE:<br>
-<br>
-<br>
-* CAPACITACIÓN: TÉCNICAS DE COMUNICACIÓN ORAL, PLANES DE CAPACITACIÓN Y ELABORACIÓN DE MATERIALES DE APOYO.<br>
-* ACTAS DE ENTREGA: FORMATO, DILIGENCIAMIENTO.<br>
-                  </p>
-            </div>
-            <div class="conatiener_desarrollo_2">
-                4.7 CRITERIOS DE EVALUACIÓN
-            </div>
-            <div class="container-contenido" id="contenedor3">
-                <p>
-                    PLANEAR ACTIVIDADES DE IMPLANTACIÓN DEL SOFTWARE DE ACUERDO CON LAS CONDICIONES DEL SISTEMA:<br>
-                    <br>
-                    * PREPARA LA PLATAFORMA TECNOLÓGICA, CON BASE EN LAS CARACTERÍSTICAS DEL SISTEMA OPERATIVO SELECCIONADO.<br>
-* VERIFICA EL CUMPLIMIENTO DE LAS CARACTERÍSTICAS MÍNIMAS DE HARDWARE REQUERIDAS PARA EL SOFTWARE DESARROLLADO.<br>
-* DISEÑA EL PLAN DE MIGRACIÓN DE DATOS DE ACUERDO CON LAS CONDICIONES DE IMPLEMENTACIÓN.<br>
-* DISEÑA EL PLAN DE RESPALDO DE LOS DATOS PARA MITIGAR RIESGOS.<br>
-* ELABORA EL PLAN DE INSTALACIÓN DE ACUERDO CON LAS CARACTERÍSTICAS DEL SOFTWARE A
-IMPLANTAR.<br>
-<br>
-<br>
-DESPLEGAR EL SOFTWARE DE ACUERDO CON LA ARQUITECTURA Y LAS POLÍTICAS ESTABLECIDAS:<br>
-<br>
+#con1 {
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 30px; /* Alto deseado en píxeles o porcentaje */
+  margin: -52px auto;
+  margin-top: 50px;
+  background-color: rgb(187, 186, 185);
+}
 
-* GENERA LAS COPIAS DE RESPALDO SEGÚN EL PLAN ESTABLECIDO<br>
-* CONFIGURA LOS SERVICIOS SEGÚN LOS REQUERIMIENTOS DEL SOFTWARE DESARROLLADO.<br>
-* CONFIGURA EL SOFTWARE EN EL SERVIDOR DE ACUERDO CON LOS REQUERIMIENTOS TÉCNICOS.<br>
-* MIGRA LOS DATOS SEGÚN EL PLAN.<br>
-* REALIZA LA CONFIGURACIÓN DE USUARIOS EN LA PLATAFORMA SEGÚN REQUISITOS DE SEGURIDAD Y PRIVILEGIOS ASIGNADOS.<br>
-* PUBLICA LA APLICACIÓN DE ACUERDO CON LA PLATAFORMA DE PRODUCCIÓN.<br>
-* REALIZA PRUEBAS DE FUNCIONALIDAD DEL SOFTWARE PARA COMPROBAR LA OPERATIVIDAD.<br>
-                </p>
-                  
-            </div>
-        </div>
+#con2 {
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 30px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+  margin-top: 50px;
+  background-color: rgb(187, 186, 185);
+}
+.conatiener_desarrollo_2 {
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 30px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+  margin-top: -22px;
+  background-color: rgb(187, 186, 185);
+}
 
-</body>
+.conatiener_desarrollo_text {
+  /* background-color: white; */
+  border: 2px solid #000;
+  width: 698px; /* Ancho deseado en píxeles o porcentaje */
+  height: 72px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+  margin-left: 100px;
+  margin-top: -96px;
+}
+.container-contenido p {
+  text-align: left;
+  height: 9px;
+  font-size: 13px;
+  color: black;
 
-</html>
+  font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
+  font-weight: bold; /* Grosor de la fuente (negrita) */
+}
+
+.conatiener_desarrollo_text p {
+  text-align: center;
+  height: 5px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+
+  font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
+  font-weight: bold; /* Grosor de la fuente (negrita) */
+  width: 80%;
+  margin-left: 5%;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container-alfa {
+    padding: 5px; /* Reduce el espacio interno en dispositivos más pequeños */
+  }
+
+  .container-contenido p {
+    font-size: 15px; /* Reduce el tamaño de fuente en dispositivos más pequeños */
+  }
+}
