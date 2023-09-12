@@ -162,7 +162,7 @@ hasta aqui va el container de encabezado y comienza el de contenido
   /* background-color: white; */
   border: 2px solid #000;
   width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 5%; /* Alto deseado en píxeles o porcentaje */
+  height: 4%; /* Alto deseado en píxeles o porcentaje */
   margin: 20px auto;
   /* margin-left: -2px; */
   margin-top: -21px;
@@ -189,7 +189,7 @@ hasta aqui va el container de encabezado y comienza el de contenido
   /* background-color: white; */
   border: 2px solid #000;
   width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 260px; /* Alto deseado en píxeles o porcentaje */
+  height: 210px; /* Alto deseado en píxeles o porcentaje */
   margin: 20px auto;
   /* margin-left: -2px; */
   margin-top: -21px;
@@ -265,9 +265,8 @@ hasta aqui va el container de encabezado y comienza el de contenido
 .conatiener_desarrollo_text2 p {
   text-align: start;
   height: 5px;
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
-
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   font-weight: bold; /* Grosor de la fuente (negrita) */
   width: 90%;
@@ -277,9 +276,8 @@ hasta aqui va el container de encabezado y comienza el de contenido
 .conatiener_desarrollo_text3 p {
   text-align: start;
   height: 5px;
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
-
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   width: 90%;
   margin-left: 10px;
@@ -288,9 +286,8 @@ hasta aqui va el container de encabezado y comienza el de contenido
 .conatiener_desarrollo_text4 p {
   text-align: start;
   height: 5px;
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
-
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   font-weight: bold; /* Grosor de la fuente (negrita) */
   width: 90%;
@@ -300,9 +297,8 @@ hasta aqui va el container de encabezado y comienza el de contenido
 .conatiener_desarrollo_text5 p {
   text-align: start;
   height: 5px;
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
-
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   width: 90%;
   margin-left: 10px;
@@ -380,15 +376,15 @@ hasta aqui va el container de encabezado y comienza el de contenido
   margin-top: 3px;
 }
 .conatiener_desarrollo_text12 p {
-text-align: start;
+ text-align: start;
   height: 5px;
-  font-size: 15px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   font-weight: bold; /* Grosor de la fuente (negrita) */
-  width: 90%;
-  margin-left: 11px;
-  margin-top: 12px;
+  width: 81%;
+  margin-left: 9px;
+  margin-top: 2px;
 }
 .conatiener_desarrollo_text13 p {
   text-align: center;
@@ -416,12 +412,12 @@ text-align: start;
 .conatiener_desarrollo_text15 p {
   text-align: start;
   height: 5px;
-  font-size: 15px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   font-weight: bold; /* Grosor de la fuente (negrita) */
-  width: 90%;
-  margin-left: 11px;
+  width: 81%;
+  margin-left: 9px;
   margin-top: 2px;
 }
 /* aqui termina el la modificaion del tex dentro del container */
