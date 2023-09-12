@@ -417,8 +417,8 @@ hasta aqui va el container de encabezado y comienza el de contenido
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   font-weight: bold; /* Grosor de la fuente (negrita) */
   width: 81%;
-  margin-left: 9px;
-  margin-top: 2px;
+  margin-left: 11px;
+  margin-top: 9px;
 }
 /* aqui termina el la modificaion del tex dentro del container */
 /* Estilos responsivos */
