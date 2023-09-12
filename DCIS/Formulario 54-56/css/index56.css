@@ -55,60 +55,15 @@ hasta aqui va el container de encabezado y comienza el de contenido
 
 }
 
-#con1 {
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 30px; /* Alto deseado en píxeles o porcentaje */
-  margin: -52px auto;
-  margin-top: 50px;
-  background-color: rgb(187, 186, 185);
-}
-
-#con2 {
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 30px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: 50px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_2 {
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 30px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -22px;
-  background-color: rgb(187, 186, 185);
-}
-
-.conatiener_desarrollo_text {
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 698px; /* Ancho deseado en píxeles o porcentaje */
-  height: 72px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-left: 100px;
-  margin-top: -96px;
-}
 .container-contenido p {
   text-align: left;
-  height: 9px;
+  position : relative;
+  left: 11px;
   font-size: 14px;
-  color: rgb(66, 60, 60);
-  font-family: Arial, sans-serif; 
-  font-weight: bold; /
-}
-
-.conatiener_desarrollo_text p {
-  text-align: center;
-  height: 5px;
-  font-size: 15px;
-  color: rgb(0, 0, 0);
-
-  font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-  font-weight: bold; /* Grosor de la fuente (negrita) */
-  width: 80%;
-  margin-left: 5%;
+   height: 15px;
+  color: rgb(56, 40, 40);
+  font-family: Arial, sans-serif;
+  font-weight: bold; 
 }
 
 /* Estilos responsivos */
