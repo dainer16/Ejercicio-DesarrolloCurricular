@@ -39,10 +39,15 @@ hasta aqui va el container de encabezado y comienza el de contenido
 */
 .container-contenido {
   /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 205px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
+  text-align: start;
+  height: 5px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
+  font-weight: bold; /* Grosor de la fuente (negrita) */
+  width: 90%;
+  margin-left: 11px;
+  margin-top: 12px;
 }
 #contenedor2 {
   /* background-color: white; */

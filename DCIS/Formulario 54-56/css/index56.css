@@ -101,7 +101,7 @@ hasta aqui va el container de encabezado y comienza el de contenido
   text-align: left;
   height: 9px;
   font-size: 13px;
-  color: black;
+  color: rgb(82, 78, 78);
 
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
   font-weight: bold; /* Grosor de la fuente (negrita) */
