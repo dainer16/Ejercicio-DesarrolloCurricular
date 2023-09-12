@@ -381,7 +381,7 @@ hasta aqui va el container de encabezado y comienza el de contenido
   font-size: 13px;
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-  font-weight: bold; /* Grosor de la fuente (negrita) */
+  /* font-weight: bold; Grosor de la fuente (negrita) */
   width: 81%;
   margin-left: 9px;
   margin-top: 2px;
@@ -415,7 +415,7 @@ hasta aqui va el container de encabezado y comienza el de contenido
   font-size: 13px;
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-  font-weight: bold; /* Grosor de la fuente (negrita) */
+  /* font-weight: bold; Grosor de la fuente (negrita) */
   width: 81%;
   margin-left: 11px;
   margin-top: 9px;

@@ -81,10 +81,13 @@ hasta aqui va el container de encabezado y comienza el de contenido
 }
 .container-contenido p {
   text-align: left;
+  position : relative;
+  left: 11px;
   font-size: 13px;
+   height: 15px;
   color: black;
-  font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-  font-weight: bold; /* Grosor de la fuente (negrita) */
+  font-family: Arial, sans-serif;
+  /* font-weight: bold; Grosor de la fuente (negrita) */
 }
 
 /* Estilos responsivos */
